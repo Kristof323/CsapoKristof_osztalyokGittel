@@ -46,7 +46,7 @@ namespace OOPGyakorlas
 
         public void Kedvezmeny(int szazalek)
         {
-           ar -= Convert.ToInt16(ar * (szazalek / 100));
+            ar -= Convert.ToInt16(ar * (szazalek / 100));
         }
 
         public int HanyOldalMaradt(int elolvasott)
