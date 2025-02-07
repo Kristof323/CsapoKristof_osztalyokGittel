@@ -69,6 +69,25 @@ namespace OOPGyakorlas
             urhajo2.Tankolas(10);
             urhajo2.Landolas();
             Console.WriteLine("\n" + urhajo2);
+
+
+            Console.WriteLine("-------------------------------------------");
+
+
+            KemKuldetes kuldetes1 = new KemKuldetes("Kém1", "NDK", 10, 70);
+            KemKuldetes kuldetes2 = new KemKuldetes("Kém2", "Szovjetúnió");
+
+            Console.WriteLine(kuldetes1);
+            kuldetes1.KuldetesInditasa();
+            kuldetes1.VeszelySzintNovel(5);
+            kuldetes1.SikerEsejNovelese(10);
+            Console.WriteLine(kuldetes1);
+
+            Console.WriteLine("\n" + kuldetes2);
+            kuldetes2.KuldetesInditasa();
+            kuldetes2.VeszelySzintNovel(10);
+            kuldetes2.SikerEsejNovelese(20);
+            Console.WriteLine(kuldetes2);
         }
     }
 }
